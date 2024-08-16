@@ -103,7 +103,7 @@ const addCart = () =>{
             <div class="spec">
               <!-- 商品信息区 -->
               <p class="g-name"> {{ goods.name }} </p>
-              <p class="g-desc">好{{goods.desc}} </p>
+              <p class="g-desc">{{goods.desc}} </p>
               <p class="g-price">
                 <span>{{ goods.oldPrice }}</span>
                 <span> {{ goods.price }}</span>
